@@ -1,0 +1,40 @@
+version: '2'
+services:
+  database:
+    image: mysql:5.7
+    command: --max_allowed_packet=32505856 --sql_mode=""
+    container_name: anketa-mysql
+    ports:
+    - "3398:3306"
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: "no"
+      MYSQL_DATABASE: "anketa"
+    volumes:
+    - ./docker/database/init.sql:/docker-entrypoint-initdb.d/init.sql
+    - ./.mysql:/var/lib/mysql
+  webserver:
+    build: ./docker/webserver
+    container_name: anketa-web
+    ports:
+    - "83:80"
+    - "436:433"
+    environment:
+      PATH_AUTODETECT: "/var/www/anketa/cmsitespec"
+      DATABASE_HOST: "anketa-mysql"
+      DATABASE_NAME: "anketa"
+      DATABASE_USER: "anketa"
+      DATABASE_PASS: "docker"
+    depends_on:
+    - database
+    links:
+    - database
+    volumes:
+    - .:/var/www/anketa
+    - ../cmass:/var/www/cmass
+    - ./docker/webserver/conf/sites-enabled/000-default.conf:/etc/apache2/sites-enabled/000-default.conf
+    - ../cmass/www/pub:/var/www/anketa/httpdocs/cmass
+    - ../anvil:/var/www/anvil
+    - ../abstractions:/var/www/abstractions
+    - ../anvil/media:/var/www/anketa/httpdocs/anvil
+    - ../abstractions/www:/var/www/anketa/httpdocs/abstractions
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+	<body>
+		<table border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td>
+					<modul src="Core::LoginManagement::UI::cLoginScreen" name="cLoginScreen" />
+				</td>
+			</tr>
+		</table>
+	</body>
+</layout>

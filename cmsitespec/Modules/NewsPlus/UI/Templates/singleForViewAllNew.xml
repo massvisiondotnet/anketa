@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <div class="single">
+        <_draw_param value="target_date" class="target_date" />
+        <_draw_param value="title" class="title" />
+        <_draw_param value="description" class="description" />
+        <_draw_param value="simage" class="simage" />
+    </div>
+</layout>

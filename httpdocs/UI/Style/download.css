@@ -1,0 +1,71 @@
+/**
+ * File download box styles
+ */
+.downloadBlock {
+   display: block;
+   background: url('../Images/downloadBck.png') left top no-repeat;
+   height: 27px;
+   margin-bottom: 15px;
+}
+
+.downloadBlock .downloadTitle,
+.downloadBlock .downloadIcon,
+.downloadBlock .downloadSize {
+   display: block;
+   float: left;
+}
+
+.downloadBlock .downloadTitle {
+   width: 455px;
+   padding-top: 6px;
+   padding-left: 10px;
+}
+.downloadBlock .downloadTitle a,
+.downloadBlock .downloadTitle a:visited,
+.downloadBlock .downloadTitle a:hover {
+   color: #555555;
+   text-decoration: none;
+}
+.downloadBlock .downloadTitle a:hover {
+   color: #b22c1b;
+}
+
+.downloadBlock .downloadSize {
+   padding-top: 7px;
+   padding-left: 10px;
+   font-size: 10px;
+}
+
+
+.downloadIcon {
+   width: 20px;
+   height: 27px;
+   background: url('../Images/Icons/Download/download.png') center center no-repeat;
+}
+.filetype_pdf .downloadIcon {
+   background: url('../Images/Icons/Download/pdficon_small.gif') center center no-repeat;
+}
+.filetype_doc .downloadIcon,
+.filetype_docx .downloadIcon {
+   background: url('../Images/Icons/Download/ms_word.gif') center center no-repeat;
+}
+.filetype_xls .downloadIcon,
+.filetype_xlsx .downloadIcon {
+   background: url('../Images/Icons/Download/ms_excel.png') center center no-repeat;
+}
+.filetype_avi .downloadIcon {
+   background: url('../Images/Icons/Download/avi.png') center center no-repeat;
+}
+.filetype_flv .downloadIcon {
+   background: url('../Images/Icons/Download/flv.gif') center center no-repeat;
+}
+.filetype_zip .downloadIcon {
+   background: url('../Images/Icons/Download/zip.gif') center center no-repeat;
+}
+.filetype_jpg .downloadIcon,
+.filetype_jpeg .downloadIcon,
+.filetype_gif .downloadIcon,
+.filetype_png .downloadIcon,
+.filetype_eps .downloadIcon {
+   background: url('../Images/Icons/Download/img.gif') center center no-repeat;
+}

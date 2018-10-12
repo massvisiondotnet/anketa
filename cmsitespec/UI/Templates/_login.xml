@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+	<body class="backend_login">
+		<div id="center_wrap">
+			<div id="wrap">
+				<modul src="Core::LoginManagement::UI::cLoginScreen" name="cLoginScreen" />
+			</div>
+		</div>
+	</body>
+</layout>

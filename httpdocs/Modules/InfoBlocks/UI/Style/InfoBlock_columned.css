@@ -1,0 +1,35 @@
+.InfoBlockMainTable
+{
+	background-color: #E6E7F1;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+td.InfoBlockDelimitingColCell
+{
+	padding:10px;
+	background-image: url(/Dummy/Core/Common/UI/Images/column_delimiter.gif);
+	background-repeat : repeat-y;
+	background-position : center;
+}
+td.InfoBlockCol
+{
+	padding:0px
+}
+td.InfoBlockDelimitingRowCell
+{
+	padding:5px;
+}
+table.InfoBlockCell
+{
+	padding: 0px;
+}
+.InfoBlockOddCell
+{
+	padding: 5px;
+}
+.InfoBlockEvenCell
+{
+	padding: 5px;
+}

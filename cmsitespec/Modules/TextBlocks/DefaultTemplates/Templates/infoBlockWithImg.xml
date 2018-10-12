@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+   <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+         <td rowspan="2" align="left" class="blockInfoBlockImage">
+            <field name="link_1_start" type="linktoself_start"></field>
+            <field name="image_1" type="image"></field>
+            <field name="link_1_end" type="linktoself_end"></field>
+         </td>
+         <td align="left" class="blockInfoBlockTitle">
+            <field name="link_2_start" type="linktoself_start"></field>
+            <field name="text_1" type="text">
+               <search_priority>10</search_priority>
+            </field>
+            <field name="link_2_end" type="linktoself_end"></field>
+         </td>
+      </tr>
+      <tr>
+         <td align="left" class="blockInfoBlockText">
+            <field name="text_2" type="html">
+            	<toolbarMode>reduced</toolbarMode>
+               <search_priority>5</search_priority>
+            </field>
+         </td>
+      </tr>
+   </table>
+</layout>

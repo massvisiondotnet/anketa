@@ -1,0 +1,68 @@
+#bactoprint{
+   margin: 0px 0px 0px 0px;
+   width: 100%;
+}
+#bactoprint .menubody{
+   padding: 3px 30px 10px 0px;
+}
+#bactoprint .menubody table{
+   float: right;
+}
+
+#bactoprint .alignT{
+   vertical-align: top;
+}
+
+#bactoprint a{
+}
+#bactoprint a:hover{
+}
+
+#bactoprint .separatorLevelX1{
+   padding: 0px 1px 0px 1px;
+   margin: 0px 0px 0px 0px;
+}
+
+#bactoprint .bulletLevelX1{
+   display: none;
+}
+#bactoprint img.bulletLevelX1{
+   display: none;
+}
+
+/* link level1 */
+#bactoprint .linkLevelX1{
+   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+   font-size: 11px;
+   font-weight: normal;
+   text-decoration: none;
+   padding: 0px 0px 0px 0px;
+   color: #888888;
+}
+#bactoprint .linkLevelX1:hover{
+   color: #940000;
+   text-decoration: none;
+   padding: 0px 0px 0px 0px;
+}
+
+#bactoprint .itemLevelX1{
+   background-color: inherit;
+   padding: 0px 0px 0px 0px;
+   width: 17px;
+}
+   #bactoprint .itemLevelX1ov{
+      background-color: #F66025;
+      padding: 0px 0px 0px 0px;
+      width: 17px;
+   }
+   #bactoprint .itemLevelX1on{
+      background-color: #F66025;
+      padding: 0px 0px 0px 0px;
+      width: 17px;
+   }
+
+
+
+#bactoprint .borderMCLevelX1{
+   padding: 0px 0px 0px 0px;
+}

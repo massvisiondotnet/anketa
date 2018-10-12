@@ -1,0 +1,12 @@
+<layout>
+
+<span id="jxcbWrapper_example_par_nepar">
+	Par/nepar: <_draw_param value="par_nepar" />
+</span>
+
+<span id="jxcbWrapper_example_jednocifreni">
+	<br />
+	Broj: <_draw_param value="jednocifreni" />	
+</span>
+
+</layout>

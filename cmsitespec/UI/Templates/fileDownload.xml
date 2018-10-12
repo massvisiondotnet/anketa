@@ -1,0 +1,23 @@
+<layout>
+
+<div class="downloadBlock">
+   <div class="downloadTitle">
+      <_draw_param value="link_start" />
+      <_draw_param value="title" />
+      <_draw_param value="link_end" />
+   </div>
+
+   <_draw_param value="link_start" />
+   <_draw_param value="class_start" />
+      <div class="downloadIcon">
+      </div>
+   <_draw_param value="class_end" />
+   <_draw_param value="link_end" />
+   
+
+   <div class="downloadSize">[<_draw_param value="size" />]</div>
+
+   <div style="clear:both"></div>
+</div>
+
+</layout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+   <p>
+   <field name="text_1" type="html">
+      <toolbarMode>reduced</toolbarMode>
+      <search_priority>5</search_priority>
+   </field>
+   </p>
+</layout>

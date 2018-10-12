@@ -1,0 +1,160 @@
+/*
+.body{margin:0em; padding: 0em;}
+
+.menuframe td{
+   vertical-align: top;
+}
+.klasa{
+	background-color: #FFFF00;
+}
+*/
+
+#searchSortList td {
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #555555;
+	text-decoration: none;
+}
+#searchSortList a.sortableList {
+/*
+   font-size: xx-small;
+*/
+}
+
+#searchSortList a.sortableList:visited {
+	color: #555555;
+	text-decoration: none;
+}
+
+#searchSortList a.sortableList:hover   {
+	text-decoration: none;
+}
+#searchSortList a:hover .bct  {
+	color: #b22c1b;
+}
+
+#searchSortList span.sortableList {
+   font-family: Menu, Verdana, Arial, Helvetica, sans-serif;
+	color: #555555;
+/*
+   font-size: xx-small;
+	color: #00FF00;
+	color: #F0D0B0;
+*/
+}
+
+#searchSortList{
+   border-Bottom: white solid 0px;
+   border-Left: white solid 0px;
+   border-Right: white solid 0px;
+   border-Top: white solid 0px;
+	background-color: transparent;
+}
+
+#searchSortList td{
+   vertical-align: top;
+   border-Bottom: black solid 0px;
+   border-Left: black solid 0px;
+   border-Right: black solid 0px;
+   border-Top: black solid 0px;
+	background-color: transparent;
+	padding: 3px;
+/****
+****/
+}
+
+#searchSortList .sortableListClassCell{
+   border-Bottom: black solid 0px;
+   border-Left: black solid 0px;
+   border-Right: black solid 0px;
+   border-Top: black solid 0px;
+	background-color: transparent;
+	padding: 3px;
+}
+
+#searchSortList .sortableListClassFirstRow{
+/****
+Slabi parametri- slabiji su od parametara klase deteta
+jacina:  2
+****/
+}
+#searchSortList .sortableListClassFirstRow td{
+/****
+Jaki parametri- jaci su od parametara klase deteta
+jacina:  5
+****/
+/*
+	color: #00FF00;
+   background-color: InfoBackground;
+	background-color: Menu;
+	background-color: #9CA4C9;
+   font-size: 8pt;
+   border-Bottom: buttonShadow solid 1px;
+   border-Left: buttonHighlight solid 1px;
+   border-Right: buttonShadow solid 1px;
+   border-Top: buttonHighlight solid 1px;
+*/
+	background-color: #A5ADCE;
+	background-color: transparent;
+}
+
+#searchSortList .sortableList{
+   font-weight: normal;
+	color: #555555;
+}
+#searchSortList .sortableList:visited{
+   font-weight: normal;
+	color: #555555;
+}
+#searchSortList .sortableList:hover{
+   font-weight: normal;
+   text-decoration: none;
+	color: #555555;
+}
+
+#sortableListNavigBar .sortableList{
+   font-size: 11px;
+   font-weight: normal;
+	color: #555555;
+}
+#sortableListNavigBar .sortableListInactive{
+   font-size: 11px;
+   font-weight: normal;
+}
+#sortableListNavigBar td.sortableListBack{
+   border: 0px;
+}
+#sortableListNavigBar td.sortableListCounter{
+	padding: 2px 20px 2px 20px;
+}
+#sortableListNavigBar td.sortableListForward{
+   border: 0px;
+}
+#sortableListNavigBar{
+	margin: 10px 0px 10px 0px;
+}
+#sortableListNavigBar td{
+	padding: 2px;
+}
+
+.resultDescriptiom {
+	display: block;
+	font-weight: bold;
+}
+.sortableListClassCell .resultSerachTexts {
+	display: none;
+}
+.sortableListInactive {
+	color: #aaaaaa;
+}
+#sortableListNavigBar a.sortableList,
+#sortableListNavigBar a.sortableList:visited,
+#sortableListNavigBar a.sortableList:hover {
+	color: #555555;
+	text-decoration: none;
+}
+#sortableListNavigBar a.sortableList:hover {
+	color: #b22c1b;
+}
+.sortableListClassCell td:last-child {
+	display: none;
+}

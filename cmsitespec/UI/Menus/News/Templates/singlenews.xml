@@ -1,0 +1,13 @@
+<layout>
+    <_draw_param value="image" />
+    <_draw_param value="date" />
+    <_draw_param value="shortdesc" />
+    <_draw_param value="longdesc" />
+    <_draw_param value="readmore" />
+    <!-- <tr><td class="newsImage"><_draw_param value="image" /></td></tr> -->
+    <!-- <tr><td class="newsDescription"><_draw_param value="desc" /></td></tr>-->
+    <!-- <tr><td class="newsShortDescription"><_draw_param value="shortdesc" /></td></tr> -->
+    <!-- <tr><td class="newsLongDescription"><_draw_param value="longdesc" /></td></tr> -->
+    <!-- <tr><td class="findMore"><_draw_param value="find_more" /></td></tr> -->
+    <!-- <tr><td class="linkImage"><_draw_param value="linkimage" /></td></tr> -->
+</layout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+  <modul src="Modules::TextBlocks::cTextBlocks" name="TextBlock_0">
+    <param name="text_block_view">page_on</param>
+    <param name="pagecmd">show_text_block</param>
+    <param name="text_block_id"><_insert_search_results_title_id_ / ></param>
+  </modul>
+  <modul src="Core::SearchManagement::cSearchModul" name="zkk">
+    <param name="search_command">display</param>
+  </modul>
+</layout>

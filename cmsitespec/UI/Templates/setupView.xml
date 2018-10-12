@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+	<frameset framespacing="0" rows="20, *, 18 " border="0">
+		<frame src="cRootModuleManager.php?" name="menuview" marginheight="0" marginwidth="0" topmargin="0" leftmargin="0" frameborder="0" scrolling="no" noresize="yes">
+			<param name="modul">Core::ViewManagement::UI::cMenuView</param>
+			<param name="name">menuview</param>
+			<param name="view">menu</param>
+	  </frame>
+		<frameset cols="280, *" border="3">
+			<frame src="cRootModuleManager.php?" name="itemlist" marginheight="0" marginwidth="0" topmargin="0" leftmargin="0" frameborder="1">
+				<param name="modul">Core::SetupManagement::UI::cSetupView</param>
+				<param name="name">setuplist</param>
+				<param name="view">setuplist</param>
+			</frame>
+			<frame src="cRootModuleManager.php?" name="item" marginheight="0" marginwidth="0" topmargin="0" leftmargin="0" frameborder="1">
+				<param name="modul">Core::SetupManagement::UI::cSetupView</param>
+				<param name="name">setupview</param>
+				<param name="view">setupitem</param>
+			</frame>
+		</frameset>
+		<frame src="cRootModuleManager.php?" name="statusview" marginheight="0" marginwidth="0" topmargin="0" leftmargin="0" frameborder="0" scrolling="no" noresize="yes">
+			<param name="modul">Core::ViewManagement::UI::cStatusView</param>
+			<param name="name">statusview</param>
+			<param name="view">status</param>
+	  </frame>
+	</frameset>
+</layout>

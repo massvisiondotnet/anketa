@@ -1,0 +1,17 @@
+/**
+ *
+ *   Content Style Sheet File
+ *   Copyright (c) 2009. by MASSVision, http://massvision.net
+ *   Author: Mladen Mijatov
+ *
+ **/
+
+/* IE :hover, :active, :focus selector support */
+body {
+	*behavior: url("UI/Style/csshover.htc");
+}
+
+/* ie6 support class for transparent PNG images */
+.png_fix {
+	*behavior: url("UI/Style/iepngfix.htc");
+}

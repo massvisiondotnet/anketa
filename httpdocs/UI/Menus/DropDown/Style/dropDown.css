@@ -1,0 +1,199 @@
+/* ime tabele za level 0-2 */
+.dropDownTableLevel0,
+.dropDownTableLevel1,
+.dropDownTableLevel2{
+   cursor: pointer;
+   cursor: hand;
+   text-align: left;
+   padding: 0px 0px 0px 0px;
+   margin: 0px 0px 0px 0px;
+/*
+   border-bottom: 1px #AEAEAE solid;
+   border-right: 1px #AEAEAE solid;
+   border-left: 1px #AEAEAE solid;
+
+   background-color: #FFB300;
+*/
+}
+/* ime tabele za level 1 */
+.dropDownTableLevel1{
+/*
+   border-top: 1px #CCCCCC solid;
+   border-bottom: 1px #8B8989 solid;
+   border-right: 1px #8B8989 solid;
+   border-left: 1px #CCCCCC solid;
+*/
+}
+
+/* ime celije za level 0-2 off */
+.dropDownTableLevel0 .dropDownCellLevel0Off,
+.dropDownTableLevel1 .dropDownCellLevel1Off,
+.dropDownTableLevel2 .dropDownCellLevel2Off{
+   cursor: pointer;
+   cursor: hand;
+   font-size: 11px;
+   font-weight: bold;
+   padding: 6px 5px 5px 13px;
+/*
+   border-top: 1px #AEAEAE solid;
+*/
+   background-image: url(drop_down_bullet.gif);
+   background-position: top left;
+   background-repeat: no-repeat;
+   background-color: #FFB300;
+   color: #FFFFFF;
+   text-decoration: none;
+}
+/* ime celije za level 0-2 over */
+.dropDownTableLevel0 .dropDownCellLevel0Over,
+.dropDownTableLevel1 .dropDownCellLevel1Over,
+.dropDownTableLevel2 .dropDownCellLevel2Over{
+   cursor: pointer;
+   cursor: hand;
+   font-size: 11px;
+   font-weight: bold;
+   padding: 6px 5px 5px 13px;
+/*
+   border-top: 1px #AEAEAE solid;
+*/
+   background-image: url(drop_down_bullet_on.gif);
+   background-position: top left;
+   background-repeat: no-repeat;
+   background-color: #FFB300;
+   color: #FFFFFF;
+   text-decoration: underline;
+}
+/* ime celije za level 0-2 on */
+.dropDownTableLevel0 .dropDownCellLevel0On,
+.dropDownTableLevel1 .dropDownCellLevel1On,
+.dropDownTableLevel2 .dropDownCellLevel2On{
+   cursor: pointer;
+   cursor: hand;
+   font-size: 11px;
+   font-weight: bold;
+   padding: 6px 5px 5px 13px;
+/*
+   border-top: 1px #AEAEAE solid;
+*/
+   background-image: url(drop_down_bullet_on.gif);
+   background-position: top left;
+   background-repeat: no-repeat;
+   background-color: #FFB300;
+   color: #FFFFFF;
+   text-decoration: underline;
+}
+/* ime celije za level 0-2 off sa svojim padajucim menijem */
+.dropDownTableLevel0 .dropDownCellLevel0OffMenu,
+.dropDownTableLevel1 .dropDownCellLevel1OffMenu,
+.dropDownTableLevel2 .dropDownCellLevel2OffMenu{
+   cursor: pointer;
+   cursor: hand;
+   font-size: 11px;
+   font-weight: bold;
+   padding: 5px 5px 5px 8px;
+/*
+   border-top: 1px #AEAEAE solid;
+   background-color: #FFB300;
+*/
+   background-image: url(drop_down_str_off.gif);
+   background-repeat: no-repeat;
+   background-position: top right;
+   color: #FFFFFF;
+}
+/* ime celije za level 0-2 over sa svojim padajucim menijem */
+.dropDownTableLevel0 .dropDownCellLevel0OverMenu,
+.dropDownTableLevel1 .dropDownCellLevel1OverMenu,
+.dropDownTableLevel2 .dropDownCellLevel2OverMenu{
+   cursor: pointer;
+   cursor: hand;
+   font-size: 11px;
+   font-weight: bold;
+   padding: 5px 5px 5px 8px;
+/*
+   border-top: 1px #AEAEAE solid;
+   background-color: #FFB300;
+*/
+   background-image: url(drop_down_str_over.gif);
+   background-repeat: no-repeat;
+   background-position: top right;
+   color: #FFFFFF;
+}
+/* ime celije za level 0-2 on sa svojim padajucim menijem */
+.dropDownTableLevel0 .dropDownCellLevel0OnMenu,
+.dropDownTableLevel1 .dropDownCellLevel1OnMenu,
+.dropDownTableLevel2 .dropDownCellLevel2OnMenu{
+   cursor: pointer;
+   cursor: hand;
+   font-size: 11px;
+   font-weight: bold;
+   padding: 5px 5px 5px 8px;
+/*
+   border-top: 1px #AEAEAE solid;
+   background-color: #FFB300;
+*/
+   background-image: url(drop_down_str_on.gif);
+   background-repeat: no-repeat;
+   background-position: top right;
+   color: #FFFFFF;
+}
+
+
+
+
+.DropDownMenuHeaderData,
+.DropDownMenuHeader{
+   width: 100%;
+   padding: 0px 0px 0px 0px;
+}
+.DropDownMenuHeader .DropDownPartCenter{
+   width: 100%;
+   background-color: #FFB300;
+}
+.DropDownMenuHeader .DropDownPartCenterImage{
+   width: 1px;
+   height: 1px;
+}
+.DropDownMenuHeader .DropDownPartLeftImage{
+   width: 20px;
+   height: 15px;
+   background-image: url(drop_down_t_l_bg.gif);
+   background-repeat: no-repeat;
+   background-position: top right;
+}
+.DropDownMenuHeader .DropDownPartRightImage{
+   width: 20px;
+   height: 15px;
+   background-image: url(drop_down_t_r_bg.gif);
+   background-repeat: no-repeat;
+   background-position: top left;
+}
+
+.DropDownMenuFooterData,
+.DropDownMenuFooter{
+   width: 100%;
+   padding: 0px 0px 0px 0px;
+}
+.DropDownMenuFooter .DropDownPartCenter{
+   width: 100%;
+   background-color: #FFB300;
+}
+.DropDownMenuFooter .DropDownPartCenterImage{
+   width: 1px;
+   height: 1px;
+}
+.DropDownMenuFooter .DropDownPartLeftImage{
+   width: 20px;
+   height: 15px;
+   background-image: url(drop_down_b_l_bg.gif);
+   background-repeat: no-repeat;
+   background-position: top right;
+}
+.DropDownMenuFooter .DropDownPartRightImage{
+   width: 20px;
+   height: 15px;
+   background-image: url(drop_down_b_r_bg.gif);
+   background-repeat: no-repeat;
+   background-position: top left;
+}
+
+

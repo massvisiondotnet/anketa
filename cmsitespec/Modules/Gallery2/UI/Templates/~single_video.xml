@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+
+<div class="gallerySinlge singleImage">
+	<div class="content">
+		<_draw_param value="mPrevLink" />
+		<_draw_param value="mNextLink" />	
+		<_draw_param value="mVideo" class="video" />
+		<div class="textPart">
+			<_draw_param value="mTitle" class="title" /> 
+			<_draw_param value="mNavigInfo" class="navigInfo" />
+			<div style="clear: both"></div>
+			<_draw_param value="mDescription" class="description" />
+		</div>
+	</div>
+</div>
+
+</layout>

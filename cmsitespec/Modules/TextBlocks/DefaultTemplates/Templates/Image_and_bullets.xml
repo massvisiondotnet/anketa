@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+   <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+         <td align="left" class="blockTextAndImageLeftImage">
+            <field name="image_1" type="image">
+
+            </field>
+         </td>
+         <td align="left" class="blockTextAndImageLeftText">
+            <field name="text_1" type="text" bullets="ul">
+               <search_priority>10</search_priority>
+            </field>
+         </td>
+      </tr>
+   </table>
+</layout>

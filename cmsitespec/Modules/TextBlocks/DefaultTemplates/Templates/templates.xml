@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all_templates>
+   <template name="Title">
+      <description>Title definition</description>
+      <file_name>Title</file_name>
+      <image_name>Title</image_name>
+   </template>
+   <template name="Subtitle">
+      <description>Subtitle definition</description>
+      <file_name>Subtitle</file_name>
+      <image_name>Subtitle</image_name>
+   </template>
+   <template name="Paragraph">
+      <description>Text paragraph in the block</description>
+      <file_name>Paragraph</file_name>
+      <image_name>Paragraph</image_name>
+   </template>
+   <template name="Image left">
+      <description>Image with left align and text all around image</description>
+      <file_name>Image_left</file_name>
+      <image_name>Image_left</image_name>
+   </template>
+   <template name="Image right">
+      <description>Image with right align and text all around image</description>
+      <file_name>Image_right</file_name>
+      <image_name>Image_right</image_name>
+   </template>
+   <template name="Image">
+      <description>Image in the block</description>
+      <file_name>Image</file_name>
+      <image_name>Image</image_name>
+   </template>
+   <template name="Two images">
+      <description>Images in two columns</description>
+      <file_name>Two_images</file_name>
+      <image_name>Two_images</image_name>
+   </template>
+   <template name="Two paragraphs">
+      <description>Text paragraphs in two columns</description>
+      <file_name>Two_paragraphs</file_name>
+      <image_name>Two_paragraphs</image_name>
+   </template>
+   <template name="Image and text">
+      <description>Image left and text right in two columns</description>
+      <file_name>Image_and_text</file_name>
+      <image_name>Image_and_text</image_name>
+   </template>
+   <template name="Text and image">
+      <description>Text left and image right in two columns</description>
+      <file_name>Text_and_image</file_name>
+      <image_name>Text_and_image</image_name>
+   </template>
+   <template name="File download">
+      <description>Download file from server</description>
+      <file_name>File_download</file_name>
+      <image_name>File_download</image_name>
+   </template>
+   <template name="Info Block">
+      <description>Info block - title and description</description>
+      <file_name>infoBlock</file_name>
+      <image_name>Info_Block</image_name>
+   </template>
+   <template name="Info Block With Image">
+      <description>Info block with image - icon, title and description</description>
+      <file_name>infoBlockWithImg</file_name>
+      <image_name>Info_Block_With_Image</image_name>
+   </template>
+</all_templates>

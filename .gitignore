@@ -1,0 +1,5 @@
+.idea
+.mysql
+db.sql
+db.tgz
+.DS_Store

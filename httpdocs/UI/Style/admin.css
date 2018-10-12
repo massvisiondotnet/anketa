@@ -1,0 +1,51 @@
+/**
+ *
+ *   Admin Style Sheet File
+ *   Copyright (c) 2010. by MASSVision, http://massvision.net
+ *   Author: Vladimir Ignjatijevic
+ *
+ **/
+
+/*******************************
+	ADMIN LOGIN
+*******************************/
+
+table.menuframe
+{
+	border: 1px solid;
+	border-color: #ffffff #adadad #adadad #ffffff;
+	font: Menu;
+	font-size: 8pt;
+	background-color: #f7f7f7;
+}
+
+td.menucell
+{
+	padding: 0px 3px 0px 3px;
+	border: 1px solid;
+	border-color: #f7f7f7;
+	font: Menu;
+	font-size: 8pt;
+}
+
+td.menustaticcell
+{
+	padding: 0px 3px 0px 3px;
+	border: 1px solid;
+	border-color: #f7f7f7;
+	font: Menu;
+	font-size: 8pt;
+	background-color: #f7f7f7;
+}
+
+td span.menuMainCaption
+{
+	color: #333333;
+	font-weight: bold;
+}
+
+.menuCaption
+{
+	color: #333333;
+	text-decoration: underline;
+}

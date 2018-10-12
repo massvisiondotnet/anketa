@@ -1,0 +1,33 @@
+#sendtofriendform{
+   background-color: #FFFFFF;
+   border-bottom: 1px solid #133D51;
+   padding: 9px;
+   margin: 0px;
+   width: 100%;
+}
+input.sendtofriendforminput{
+	font-family : Verdana, Arial, sans-serif;
+	font-size: 11px;
+}
+.sendtofriendformtag{
+	/*color: #515151;*/
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+}
+span.sendtofriendformerrormsg{
+   color: #990000;
+   font-family: Verdana, Arial, sans-serif;
+   font-size: 11px;
+   font-weight: bold;
+   text-decoration: none;
+   display: block;
+   background-color: #90C7C2;
+   border: solid 1px #990000;
+   padding: 4px;
+   margin-bottom: 5px;
+}
+span.sendtofriendformsuccess{
+	font-size: 14px;
+	font-weight: bold;
+}

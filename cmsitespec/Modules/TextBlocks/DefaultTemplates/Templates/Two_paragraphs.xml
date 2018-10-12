@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+   <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+         <td align="left" class="blockTextAndTextLeft">
+            <field name="text_1" type="html">
+            	<toolbarMode>reduced</toolbarMode>
+               <search_priority>10</search_priority>
+            </field>
+         </td>
+         <td align="left" class="blockTextAndTextRight">
+            <field name="text_2" type="html">
+            	<toolbarMode>reduced</toolbarMode>
+               <search_priority>10</search_priority>
+            </field>
+         </td>
+      </tr>
+   </table>
+</layout>

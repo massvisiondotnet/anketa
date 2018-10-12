@@ -1,0 +1,97 @@
+#loginbox{
+   width: 100%;
+   padding: 0px 0px 0px 0px;
+   margin: 6px 0px 0px 0px;
+}
+
+#loginbox input{
+   font-size: 10px;
+   font-weight: normal;
+   margin: 0px 0px 0px 0px;
+}
+
+/* input - username*/
+#username{
+   width: 110px;
+}
+/* input - password*/
+#password{
+   width: 110px;
+}
+
+#loginbox .menubody{
+   vertical-align: top;
+   padding: 0px 0px 0px 0px;
+}
+#loginbox td{
+   color: #444444;
+   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+   font-size: 10px;
+   vertical-align: middle;
+   padding: 2px 0px 0px 0px;
+}
+#loginbox .logout{
+   color: #444444;
+   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+   font-size: 10px;
+   font-weight: normal;
+   vertical-align: middle;
+}
+#loginbox img{
+   vertical-align: bottom;
+}
+#loginbox a{
+   font-family: verdana, serif;
+   font-size: 10px;
+   font-weight: normal;
+   text-decoration: none;
+   padding: 0px 0px 0px 0px;
+   color: #444444;
+}
+#loginbox a:hover{
+   padding: 0px 0px 0px 0px;
+   text-decoration: underline;
+   color: #F45E22;
+}
+
+
+#loginbox .content{
+   padding: 0px 0px 0px 0px;
+}
+
+#loginbox .borderMC{
+   padding: 0px 0px 0px 12px;
+}
+
+#loginbox .submitButton{
+   margin: 0px 0px 0px 8px;
+   vertical-align: bottom;
+}
+
+#loginbox a.loginTitle,
+#loginbox a.loginTitle:visited{
+   color: #FFFFFF;
+   font-weight: bold;
+   text-decoration: none;
+}
+#loginbox a.loginTitle:hover{
+   color: #FFFFFF;
+   font-weight: bold;
+   text-decoration: underline;
+}
+
+#loginbox input{
+   font-family: Verdana, Arial, sans-serif;
+   font-size: 10px;
+   border: 1px solid #FFFFFF;
+   background-color: #B8B8B8;
+   color: #000000;
+   width: 130px;
+   padding: 2px;
+}
+#loginbox .submitButton{
+   border: 0px solid #FFFFFF;
+   width: 45px;
+   margin: 0px 0px 0px 5px;
+   padding: 0px 0px 0px 0px;
+}

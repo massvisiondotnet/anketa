@@ -1,0 +1,515 @@
+{
+  "success": {
+    "title": "Hvala Vam što ste odvojili vreme za nas!",
+    "text": "<p>Hvala Vam što ste odvojili vreme za nas, Vaše mišljenje nam je na prvom mestu!</p><p>Negovanje odnosa prema kupcu i uvažavanje njegovih potreba, primedbi i predloga je osnova našeg poslovanja i želje da svaku kupovinu učinimo ugodnijom i lepšom!</p><br /><br /><div class=\"backLink\"><a href=\"http://www.dm-drogeriemarkt.rs/rs_homepage/\"><img src=\"UI/Images/back_to_dm.png\" border=\"0\" alt=\"dm\" title=\"dm\" /></a></div>"
+  },
+  "pages": [
+    {
+      "title": "Dobrodošli u anketu dm drogerie markt!",
+      "header": "<p>Hvala Vam što ste naš kupac! Zahvalni smo na Vašem poverenju u nas, kao mestu kupovine i želimo da još jednom potvrdimo značenje našeg slogana „Tu sam čovek, tu kupujem“ i da pomoću ove ankete stavimo Vaše potrebe i zadovoljstvo na prvo mesto.</p><p>Sve što je potrebno jeste da odvojite par minuta i odgovorite na naša pitanja, a mi ćemo se potruditi da svaku Vašu posetu dm drogerijama iznova učinimo posebnom!</p><p>Hvala!<br />Vaš dm</p>",
+      "submit": "pošalji odgovore",
+      "groups": [
+        {
+          "title": "",
+          "questions": [
+            {
+              "type": "single",
+              "title": "Kada ste poslednji put obavili kupovinu u dm-u",
+              "options": [
+                "Pre nedelju dana",
+                "Pre 2 nedelje",
+                "Pre 4 nedelje",
+                "Pre 2 meseca",
+                "Pre više od 2 meseca"
+              ],
+              "display": "combo",
+              "empty_title": "Odaberite"
+            }
+          ]
+        },
+        {
+          "title": "U dm-u najviše kupujem  (ocenite navedene tvrdnje ocenom od 1 do 5):",
+          "questions": [
+            {
+              "type": "rated",
+              "title": "kozmetičke proizvode",
+              "from": 1,
+              "to": 5
+            },
+            {
+              "type": "rated",
+              "title": "proizvode kućne hemije",
+              "from": 1,
+              "to": 5
+            },
+            {
+              "type": "rated",
+              "title": "proizvode organske hrane",
+              "from": 1,
+              "to": 5
+            },
+            {
+              "type": "rated",
+              "title": "proizvode za bebe i decu",
+              "from": 1,
+              "to": 5
+            }
+          ]
+        },
+        {
+          "title": "",
+          "questions": [
+            {
+              "type": "multi_imaged",
+              "title": "Redovno kupujem proizvode dm marke (odaberite jedan ili više brendova):",
+              "options": [
+                {
+                  "name": "Balea",
+                  "img": "UI/Images/Survey/1/logo_balea.png"
+                },
+                {
+                  "name": "Balea MEN",
+                  "img": "UI/Images/Survey/1/logo_balea_men.png"
+                },
+                {
+                  "name": "alverde",
+                  "img": "UI/Images/Survey/1/logo_alverde.png"
+                },
+                {
+                  "name": "Denkmit",
+                  "img": "UI/Images/Survey/1/logo_denkmit.png"
+                },
+                {
+                  "name": "Profissimo",
+                  "img": "UI/Images/Survey/1/logo_profissimo.png"
+                },
+                {
+                  "name": "ebelin",
+                  "img": "UI/Images/Survey/1/logo_ebelin.png"
+                },
+                {
+                  "name": "Soft&Sicher",
+                  "img": "UI/Images/Survey/1/logo_softsicher.png"
+                },
+                {
+                  "name": "Saugstark&Sicher",
+                  "img": "UI/Images/Survey/1/logo_saugstarksicher.png"
+                },
+                {
+                  "name": "Sanft&Sicher",
+                  "img": "UI/Images/Survey/1/logo_sanftsicher.png"
+                },
+                {
+                  "name": "babylove",
+                  "img": "UI/Images/Survey/1/logo_babylove.png"
+                },
+                {
+                  "name": "Saubär",
+                  "img": "UI/Images/Survey/1/logo_saubar.png"
+                },
+                {
+                  "name": "Prinzessin Sternenzauber",
+                  "img": "UI/Images/Survey/1/logo_prinzessin.png"
+                },
+                {
+                  "name": "Dein Bestes",
+                  "img": "UI/Images/Survey/1/logo_deinbestes.png"
+                },
+                {
+                  "name": "Jessa",
+                  "img": "UI/Images/Survey/1/logo_jessa.png"
+                },
+                {
+                  "name": "Dontodent",
+                  "img": "UI/Images/Survey/1/logo_dontodent.png"
+                },
+                {
+                  "name": "DAS gesunde PLUS",
+                  "img": "UI/Images/Survey/1/logo_dasgesundeplus.png"
+                },
+                {
+                  "name": "Sundance",
+                  "img": "UI/Images/Survey/1/logo_sundance.png"
+                },
+                {
+                  "name": "Fascino",
+                  "img": "UI/Images/Survey/1/logo_fascino.png"
+                },
+                {
+                  "name": "S-quitoFree",
+                  "img": "UI/Images/Survey/1/logo_squito.png"
+                },
+                {
+                  "name": "Paradies",
+                  "img": "UI/Images/Survey/1/logo_paradies.png"
+                },
+                {
+                  "name": "S.he stylezone",
+                  "img": "UI/Images/Survey/1/logo_she.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "",
+          "questions": [
+            {
+              "type": "multi",
+              "title": "Odaberite neke od sledećih tvrdnji sa kojima se slažete (odaberite jednu ili više tvrdnji):",
+              "options": [
+                "dm nudi najveći asortiman proizvoda kućne hemije i kozmetike",
+                "u dm-u mogu da pronađem novitete na tržištu",
+                "proizvodi dm marke nude dobar kvalitet po povoljnim cenama",
+                "mogu da se oslonim na kvalitet proizvoda u dm-u",
+                "pratim akcije i pogodnosti u kupovini u dm-u"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "U dm prodavnice najčešće idem zato što… (ocenite navedene tvrdnje ocenom od 1 do 5):",
+          "questions": [
+            {
+              "type": "rated",
+              "title": "prosto me mami da uđem",
+              "from": 1,
+              "to": 5
+            },
+            {
+              "type": "rated",
+              "title": "prodavnice su dobro uređene i u njima lepo miriše",
+              "from": 1,
+              "to": 5
+            },
+            {
+              "type": "rated",
+              "title": "prodavnice su lako dostupne",
+              "from": 1,
+              "to": 5
+            },
+
+            {
+              "type": "rated",
+              "title": "imaju duže radno vreme",
+              "from": 1,
+              "to": 5
+            },
+            {
+              "type": "rated",
+              "title": "prodavci me prijateljski pozdrave",
+              "from": 1,
+              "to": 5
+            },
+            {
+              "type": "rated",
+              "title": "prodavnice imaju dobar imidž",
+              "from": 1,
+              "to": 5
+            },
+            {
+              "type": "rated",
+              "title": "proizvodi na policama su lepo raspoređeni, lako ih je naći",
+              "from": 1,
+              "to": 5
+            },
+            {
+              "type": "rated",
+              "title": "nude mi priliku da testiram mnogobrojne proizvode",
+              "from": 1,
+              "to": 5
+            },
+            {
+              "type": "rated",
+              "title": "razlikuju se od drugih drogerija",
+              "from": 1,
+              "to": 5
+            },
+            {
+              "type": "rated",
+              "title": "prodavci umeju dobro da me posavetuju",
+              "from": 1,
+              "to": 5
+            }
+          ]
+        },
+        {
+          "title": "",
+          "questions": [
+            {
+              "type": "multi",
+              "title": "Sniženja, akcije i ostale pogodnosti prilikom kupovine u dm-u najčešće pratim preko (odaberite jednu ili više tvrdnji):",
+              "options": [
+                "dm dvonedeljnog kataloga „Super cene super akcija“",
+                "dm mesečnog kataloga",
+                "Facebook stranice",
+                "internet stranice",
+                "dm mobilne aplikacije",
+                "kada dođem u dm prodavnicu",
+                "drugih kanala i portala za kupovinu"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "dm se u odnosu na druge lance ističe po (ocenite navedene tvrdnje ocenom od 1 do 5):",
+          "questions": [
+            {
+              "type": "rated",
+              "title": "asortimanu proizvoda",
+              "from": 1,
+              "to": 5
+            },
+            {
+              "type": "rated",
+              "title": "kvalitetu dm marke",
+              "from": 1,
+              "to": 5
+            },
+            {
+              "type": "rated",
+              "title": "izgledu prodavnice",
+              "from": 1,
+              "to": 5
+            },
+            {
+              "type": "rated",
+              "title": "čistoći prodavnice",
+              "from": 1,
+              "to": 5
+            },
+            {
+              "type": "rated",
+              "title": "prezentaciji proizvoda",
+              "from": 1,
+              "to": 5
+            },
+            {
+              "type": "rated",
+              "title": "ljubaznom osoblju",
+              "from": 1,
+              "to": 5
+            },
+            {
+              "type": "rated",
+              "title": "savetima prodavaca",
+              "from": 1,
+              "to": 5
+            },
+            {
+              "type": "rated",
+              "title": "uslugama koje pružaju<br />(vraćanje/zamena proizvoda, umotavanje poklona, lupe..)",
+              "from": 1,
+              "to": 5
+            }
+          ]
+        },
+        {
+          "title": "Kada uđem u dm … (ocenite navedene tvrdnje ocenom od 1 do 5):",
+          "questions": [
+            {
+              "type": "rated",
+              "title": "uvek me pozdravi ljubazno osoblje",
+              "from": 1,
+              "to": 5
+            },
+            {
+              "type": "rated",
+              "title": "u dm drogerijama vlada prijatna atmosfera",
+              "from": 1,
+              "to": 5
+            },
+            {
+              "type": "rated",
+              "title": "osoblje je spremno da pomogne",
+              "from": 1,
+              "to": 5
+            },
+            {
+              "type": "rated",
+              "title": "osoblje nudi kompetentne savete",
+              "from": 1,
+              "to": 5
+            },
+            {
+              "type": "rated",
+              "title": "imam osećaj da su zaposleni ponosni što tu rade",
+              "from": 1,
+              "to": 5
+            },
+            {
+              "type": "rated",
+              "title": "ne čekam dugo u redu za kasu",
+              "from": 1,
+              "to": 5
+            },
+            {
+              "type": "rated",
+              "title": "imam osećaj da je kupac u centru pažnje",
+              "from": 1,
+              "to": 5
+            }
+          ]
+        },
+        {
+          "title": "U dm drogerijama bih voleo/la da vidim (ocenite navedene tvrdnje ocenom od 1 do 5):",
+          "questions": [
+            {
+              "type": "rated",
+              "title": "više novih brendova kojih nema na tržištu Srbije",
+              "from": 1,
+              "to": 5
+            },
+            {
+              "type": "rated",
+              "title": "niže cene",
+              "from": 1,
+              "to": 5
+            },
+            {
+              "type": "rated",
+              "title": "jasnije opisane proizvode na etiketama",
+              "from": 1,
+              "to": 5
+            },
+            {
+              "type": "rated",
+              "title": "veću ponudu organske hrane",
+              "from": 1,
+              "to": 5
+            },
+            {
+              "type": "rated",
+              "title": "program lojalnosti (prikupljanje bodova za ostvarivanje popusta)",
+              "from": 1,
+              "to": 5
+            }
+          ]
+        },
+        {
+          "title": "Nakon kupovine u dm-u zadovoljan/na sam (ocenite navedene tvrdnje ocenom od 1 do 5):",
+          "questions": [
+            {
+              "type": "rated",
+              "title": "prijatnim nastupom prodavaca",
+              "from": 1,
+              "to": 5
+            },
+            {
+              "type": "rated",
+              "title": "preglednom ponudom proizvoda",
+              "from": 1,
+              "to": 5
+            },
+            {
+              "type": "rated",
+              "title": "kompetentnim savetima prodavaca",
+              "from": 1,
+              "to": 5
+            },
+            {
+              "type": "rated",
+              "title": "brzinom rešavanja svih mojih pitanja",
+              "from": 1,
+              "to": 5
+            },
+            {
+              "type": "rated",
+              "title": "brzinom plaćanja na kasi",
+              "from": 1,
+              "to": 5
+            }
+          ]
+        },
+        {
+          "title": "",
+          "questions": [
+            {
+              "type": "rated",
+              "title": "dm bih preporučio/la svim poznanicima (ocenite navedenu tvrdnju ocenom od 1 do 5):",
+              "from": 1,
+              "to": 5
+            }
+          ]
+        },
+        {
+          "title": "Osnovni podaci o Vama:",
+          "questions": [
+            {
+              "type": "single",
+              "title": "Pol",
+              "options": [
+                "Muški",
+                "Ženski"
+              ],
+              "display": "combo",
+              "empty_title": "Odaberite",
+              "meta": {
+                "report_param": true
+              }
+            },
+            {
+              "type": "single",
+              "title": "Starost",
+              "options": [
+                "14-19 godina",
+                "20-35 godina",
+                "36-50 godina",
+                "više od 50 godina"
+              ],
+              "display": "combo",
+              "empty_title": "Odaberite",
+              "meta": {
+                "report_param": true
+              }
+            },
+            {
+              "type": "single",
+              "title": "Pretežno kupujete u dm-u u:",
+              "options": [
+                "Beogradu",
+                "Jagodini",
+                "Kragujevcu",
+                "Kraljevu",
+                "Kruševcu",
+                "Nišu",
+                "Novom Pazaru",
+                "Novom Sadu",
+                "Paraćinu",
+                "Somboru",
+                "Subotici",
+                "Užicu",
+                "Aranđelovcu",
+                "Inđiji",
+                "Pančevu",
+                "Vranju",
+                "Čačku",
+                "Kikindi",
+                "Mladenovcu",
+                "Vršcu",
+                "Smederevu"
+              ],
+              "display": "combo",
+              "empty_title": "Odaberite grad",
+              "meta": {
+                "report_param": true
+              }
+            }
+          ]
+        },
+        {
+          "title": "",
+          "intro": "<p>Hvala Vam što ste odvojili vreme za nas, Vaše mišljenje nam je na prvom mestu!</p><p>Negovanje odnosa prema kupcu i uvažavanje njegovih potreba, primedbi i predloga je osnova našeg poslovanja i želje da svaku kupovinu učinimo ugodnijom i lepšom!</p><p>Ukoliko imate pitanja ili još utisaka koje biste podelili sa nama, možete ih upisati ovde:</p>",
+          "note": "*Ukoliko ste uneli komentar, molimo Vas da upišete i e-mail kako bismo vam odgovorili. Hvala!",
+          "questions": [
+            {
+              "type": "text",
+              "title": "Komentar",
+              "display": "box"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

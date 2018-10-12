@@ -1,0 +1,779 @@
+/**
+ *
+ *   Main Style Sheet File
+ *   Copyright (c) 2009. by MASSVision, http://massvision.net
+ *   Author:
+ *
+ **/
+
+html {
+    min-height: 100%;
+    height: auto;
+    overflow-y: scroll;
+}
+/* web fonts definitions */
+/* p1 = p see body definition */
+/* .h8 = p--heading-5 for coremedia-richtext-1.0.css */
+/* p4 = p--heading-6 for coremedia-richtext-1.0.css */
+/* font-family */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h7,
+.h8,
+.h9,
+.h10 {
+    font-family: dmbrand-regular, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.h11 {
+    font-family: dmbrand-bold, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.p2,
+.p3,
+.p4,
+.p6 {
+    font-family: dmsupport-regular, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.p5,
+.p7 {
+    font-family: dmsupport-bold, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+/* font-size, line-height */
+h1,
+h2 {
+    font-size: 24px;
+    line-height: 28px;
+}
+h3,
+h4,
+h5,
+h6 {
+    font-size: 20px;
+    line-height: 26px;
+}
+.h7 {
+    font-size: 15px;
+    line-height: 18px;
+}
+.h8,
+.h9,
+.h10,
+.h11 {
+    font-size: 15px;
+    line-height: 21px;
+}
+.p2,
+.p3,
+.p4,
+.p5 {
+    font-size: 13px;
+    line-height: 19px;
+}
+.p6,
+.p7 {
+    font-size: 11px;
+    line-height: 17px;
+}
+/* font-color */
+h1,
+h1 a,
+h4,
+h4 a,
+.h9,
+.p4 {
+    color: #bd0027;
+}
+h2,
+h3,
+.h7,
+.h11,
+.p5,
+.p6,
+.p7 {
+    color: #100c4c;
+}
+h5,
+.p2,
+.p2 a,
+.p2 a:link {
+    color: #8180ae;
+}
+h6,
+.h10,
+.p3 {
+    color: #ffffff;
+}
+.h8 {
+    color: #575481;
+}
+h1 {
+    margin-bottom: 3px;
+    margin-left: -1px;
+}
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+code,
+del,
+dfn,
+em,
+img,
+q,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    list-style: none;
+    text-align: left;
+}
+body {
+    color: #100c4c;
+    font-family: dmsupport-regular, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    background-color: #ffffff;
+    background: url(../Images/dm_anketa_header_1280x350px.jpg) center top no-repeat, url(../Images/footer.png) center bottom no-repeat;
+}
+
+div#center_wrap {
+    display: block;
+    text-align: center;
+}
+div#center_wrap div#wrap {
+    display: block;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 0 30px;
+}
+div#center_wrap div#header {
+    height: 320px;
+}
+div#center_wrap div#footer {
+    height: 50px;
+    padding-top: 170px;
+    font-size: 12px;
+}
+div#center_wrap div#footer b {
+    font-family: dmsupport-bold, Arial, Helvetica, sans-serif;
+}
+div#main {
+    padding: 45px 0 10px 0;
+}
+
+
+/***************
+ * Survey
+ ***************/
+div.survey select {
+    font-family: dmsupport-regular, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #002878;
+}
+h1.page_title {
+    font-family: dmsupport-bold, Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: #002878;
+    margin: 0 0 20px 0;
+}
+.page_header {
+    padding-bottom: 10px;
+}
+.page_header p,
+.group_intro p {
+    margin-bottom: 10px;
+}
+.page_footer {
+    padding: 20px 0 5px 0;
+    text-align: center;
+}
+div.group_title {
+    font-family: dmsupport-bold, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #002878;
+    margin: 25px 0 5px -22px;
+    padding: 8px 10px 10px 22px;
+    background: url(../Images/olovka.png) top left no-repeat;
+}
+div.group_title span.group_nr {
+    display: none;
+}
+
+div.question.rated {
+    vertical-align: top;
+}
+div.question.rated span.options_wrapper {
+    display: inline-block;
+    vertical-align: top;
+}
+div.question.rated div.field_wrapper {
+    display: inline-block;
+}
+div.question.rated label {
+    display: inline-block;
+    width: 16px;
+    text-align: center;
+    padding: 2px 0;
+    cursor: pointer;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border: 1px solid #b5b5b5;
+    line-height: 14px;
+    color: #002878;
+}
+div.question.rated label:hover {
+    background-color: #ffc72d;
+    color: #002878;
+}
+div.question.rated label.active {
+    background-color: #de291e;
+    color: #ffffff;
+}
+div.question.rated input {
+    display: none;
+}
+div.question.rated div.question_title {
+    display: inline-block;
+    width: 200px;
+}
+div.question.rated {
+    margin-bottom: 15px;
+    vertical-align: top;
+}
+
+div.question.multi div.field_wrapper {
+    margin-bottom: 15px;
+}
+div.question.multi label {
+    cursor: pointer;
+}
+div.question.single {
+    display: inline-block;
+    margin-right: 30px;
+}
+div.question.single select {
+    width: 180px;
+}
+div.question.textual textarea {
+    width: 570px;
+    height: 80px;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border: 1px solid #cccccc;
+    font-family: dmbrand-regular, Arial, Helvetica, sans-serif;
+    color: #150d52;
+    font-size: 14px;
+}
+div.group_note {
+    width: 556px;
+    padding: 5px 10px;
+    background: url('../Images/note_bck.png') top left repeat-x;
+    padding-bottom: 5px;
+    margin-top: -5px;
+    margin-bottom: 20px;
+}
+
+#survey_1 div.question.multi_imaged div.field_wrapper {
+    display: inline-block;
+    width: 114px;
+    height: 74px;
+    cursor: pointer;
+    padding-top: 2px;
+    padding-left: 2px;
+}
+#survey_1 div.question.multi_imaged div.field_wrapper label {
+    display: none;
+}
+
+#survey_1 #group_5 div.question.rated div.question_title  {
+     width: 370px;
+}
+#survey_1 #group_7 div.question.rated div.question_title  {
+    width: 370px;
+}
+#survey_1 #group_8 div.question.rated div.question_title  {
+    width: 370px;
+}
+#survey_1 #group_9 div.question.rated div.question_title  {
+    width: 370px;
+}
+#survey_1 #group_10 div.question.rated div.question_title  {
+    width: 370px;
+}
+#survey_1 #group_2,
+#survey_1 #group_7 {
+    background: url('../Images/true_or_untrue.png') 550px 30px no-repeat;
+}
+#survey_1 #group_13 {
+    padding-top: 35px;
+}
+#survey_1 #group_13 div.group_title {
+    display: none;
+}
+
+#survey_2 div.question.multi_imaged  {
+    width: 700px;
+}
+#survey_2 div.question.multi_imaged div.field_wrapper {
+    display: inline-block;
+    width: 114px;
+    height: 74px;
+    cursor: pointer;
+    padding-top: 2px;
+    padding-left: 2px;
+}
+#survey_2 div.question.multi_imaged div.field_wrapper label {
+    display: none;
+}
+#survey_2 #group_2 div.question.rated div.question_title  {
+     width: 370px;
+}
+#survey_2 #group_5 div.question.rated div.question_title  {
+     width: 370px;
+}
+#survey_2 #group_7 div.question.rated div.question_title  {
+    width: 370px;
+}
+#survey_2 #group_8 div.question.rated div.question_title  {
+    width: 370px;
+}
+#survey_2 #group_9 div.question.rated div.question_title  {
+    width: 370px;
+}
+#survey_2 #group_12 div.question.rated div.question_title  {
+    width: 370px;
+}
+#survey_2 #group_13 div.question.rated div.question_title  {
+    width: 370px;
+}
+#survey_2 #group_2,
+#survey_2 #group_7 {
+    background: url('../Images/true_or_untrue.png') 550px 30px no-repeat;
+}
+#survey_2 #group_16 {
+    padding-top: 35px;
+}
+#survey_2 #group_10 div.question_title {
+    display: none;
+}
+#survey_2 #group_16 div.group_title {
+    display: none;
+}
+
+#survey_3 div.question.multi_imaged  {
+    width: 700px;
+}
+#survey_3 div.question.multi_imaged div.field_wrapper {
+    display: inline-block;
+    width: 114px;
+    height: 74px;
+    cursor: pointer;
+    padding-top: 2px;
+    padding-left: 2px;
+}
+#survey_3 div.question.multi_imaged div.field_wrapper label {
+    display: none;
+}
+#survey_3 #group_2 div.question.rated div.question_title  {
+     width: 370px;
+}
+#survey_3 #group_3 div.question.rated div.question_title  {
+     width: 370px;
+}
+#survey_3 #group_5 div.question.rated div.question_title  {
+     width: 370px;
+}
+#survey_3 #group_6 div.question.rated div.question_title  {
+     width: 370px;
+}
+#survey_3 #group_7 div.question.rated div.question_title  {
+    width: 370px;
+}
+#survey_3 #group_8 div.question.rated div.question_title  {
+    width: 370px;
+}
+#survey_3 #group_9 div.question.rated div.question_title  {
+    width: 370px;
+}
+#survey_3 #group_11 div.question.rated div.question_title  {
+    width: 370px;
+}
+#survey_3 #group_12 div.question.rated div.question_title  {
+    width: 370px;
+}
+#survey_3 #group_2,
+#survey_3 #group_7 {
+    background: url('../Images/true_or_untrue.png') 550px 30px no-repeat;
+}
+#survey_3 #group_15 {
+    padding-top: 35px;
+}
+#survey_3 #group_10 div.question_title {
+    display: none;
+}
+#survey_3 #group_15 div.group_title,
+#survey_3 #group_16 div.group_title {
+    display: none;
+}
+#survey_3 #group_16 input[type=text] {
+    width: 180px;
+}
+#survey_3 #group_16 div.group_note {
+    margin-top: 0px;
+    background: transparent;
+    width: 90%;
+}
+#survey_3 #group_16 {
+    padding: 15px 10px 0 10px;
+    background-color: #ffffb3;
+}
+
+
+
+
+
+
+#survey_4 div.question.multi_imaged  {
+    width: 700px;
+}
+#survey_4 div.question.multi_imaged div.field_wrapper {
+    display: inline-block;
+    width: 114px;
+    height: 74px;
+    cursor: pointer;
+    padding-top: 2px;
+    padding-left: 2px;
+}
+#survey_4 div.question.multi_imaged div.field_wrapper label {
+    display: none;
+}
+#survey_4 #group_2 div.question.rated div.question_title  {
+     width: 370px;
+}
+#survey_4 #group_3 div.question.rated div.question_title  {
+     width: 570px;
+}
+#survey_4 #group_4 div.question.rated div.question_title  {
+     width: 570px;
+}
+#survey_4 #group_6 div.question.rated div.question_title  {
+     width: 370px;
+}
+#survey_4 #group_7 div.question.rated div.question_title  {
+    width: 370px;
+}
+#survey_4 #group_8 div.question.rated div.question_title  {
+    width: 370px;
+}
+#survey_4 #group_9 div.question.rated div.question_title  {
+    width: 370px;
+}
+#survey_4 #group_10 div.question.rated div.question_title  {
+    width: 370px;
+}
+#survey_4 #group_12 div.question.rated div.question_title  {
+    width: 370px;
+}
+#survey_4 #group_2,
+#survey_4 #group_8 {
+    background: url('../Images/true_or_untrue.png') 550px 30px no-repeat;
+}
+#survey_4 #group_12 {
+    margin-top: 20px;
+}
+#survey_4 #group_9 div.question_title {
+    display: none;
+}
+#survey_4 #group_12 div.group_title {
+    display: none;
+}
+#survey_4 #group_12 input[type=text] {
+    width: 180px;
+}
+#survey_4 #group_12 div.group_note {
+    margin-top: 0px;
+    background: transparent;
+    width: 90%;
+}
+#survey_4 #group_12 {
+    padding: 15px 10px 0 10px;
+    background-color: #ffffb3;
+}
+
+
+
+
+
+
+.checkboxWrapper {
+    display: inline-block;
+    vertical-align: middle;
+    width: 17px;
+    height: 18px;
+    background: url('../Images/checkbox.png') top left no-repeat;
+    cursor: pointer;
+}
+.checkboxWrapper.active {
+    background: url('../Images/checkbox.png') bottom left no-repeat;
+}
+.checkboxWrapper input {
+    display: none;
+}
+.question.multi .field_wrapper {
+    vertical-align: middle;
+}
+.question.multi .field_wrapper label {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+div.page_submit {
+    text-align: center;
+}
+div.page_submit div.submitWrappwer {
+    margin-top: 15px;
+    display: inline-block;
+    background: url('../Images/btn.png') top left repeat-x;
+    height: 39px;
+    border: 0;
+    padding: 0;
+}
+
+div.page_submit div.submitWrappwer input[type=submit] {
+    background-color: transparent;
+    background: url('../Images/btn_left.png') left top no-repeat, url('../Images/btn_right.png') right top no-repeat;
+    height: 39px;
+    border: 0;
+    padding: 0 30px;
+    cursor: pointer;
+    font-family: dmsupport-bold, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #150d52;
+    margin: 0;
+}
+div.page_submit div.submitWrappwer:hover {
+    background-position: left bottom;
+}
+div.page_submit div.submitWrappwer:hover input[type=submit] {
+    background-position: left bottom, right bottom;
+    color: #a09bc4;
+}
+
+
+div.paginator {
+    display: none;
+    text-align: right;
+    margin-top: -40px;
+}
+div.paginator span.pag {
+    display: inline-block;
+    width: 39px;
+    height: 27px;
+    background: url("../Images/pageseparator_blank.png") top left no-repeat;
+    text-align: center;
+    font-family: dmsupport-bold, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-top: 12px;
+    margin-right: 5px;
+    color: #a09bc4;
+}
+div.paginator a span.pag {
+    color: #a09bc4;
+}
+div.paginator span.pag.active {
+    background: url("../Images/pageseparator_blank.png") top right no-repeat;
+    color: #150d52;
+}
+div.paginator a span.pag.active {
+    color: #150d52;
+}
+
+body.backend_login {
+    background: #ffffff;
+}
+
+
+/*
+################################################################################
+## DMBrand
+
+```
+<span style="font-family: 'dmbrand-medium';">font-family: 'dmbrand-medium'</span><br/>
+<span style="font-family: 'dmbrand-bold';">font-family: 'dmbrand-bold'</span><br/>
+<span style="font-family: 'dmbrand-regular';">font-family: 'dmbrand-regular'</span><br/>
+<span style="font-family: 'dmbrand-light';">font-family: 'dmbrand-light'</span><br/>
+```
+################################################################################
+*/
+@font-face {
+    font-family: 'dmbrand-medium';
+    src: url('fonts/DMBrand-Medium.eot');
+    src: url('fonts/DMBrand-Medium.eot?#iefix') format('embedded-opentype'), url('fonts/DMBrand-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dmbrand-bold';
+    src: url('fonts/DMBrand-Bold.eot'), url("fonts/DMBrandBG-Bold.eot");
+    src: url('fonts/DMBrand-Bold.eot?#iefix') format('embedded-opentype'), url('fonts/DMBrand-Bold.woff') format('woff'), url("fonts/DMBrandBG-Bold.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: dmbrand-regular;
+    src: url("fonts/DMBrand-Regular.eot"), url("fonts/DMBrandBG-Regular.eot");
+    src: url("fonts/DMBrand-Regular.woff") format("woff"), url("fonts/DMBrandBG-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "dmbrand-light";
+    src: url("fonts/DMBrand-Light.eot#") format("eot"), url("fonts/DMBrand-Light.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+/*
+################################################################################
+## DMSupport
+
+```
+<span style="font-family: 'dmsupport-medium';">font-family: 'dmsupport-medium'</span><br/>
+<span style="font-family: 'dmsupport-bold';">font-family: 'dmsupport-bold'</span><br/>
+<span style="font-family: 'dmsupport-regular';">font-family: 'dmsupport-regular'</span><br/>
+<span style="font-family: 'dmsupport-italic';">font-family: 'dmsupport-italic'</span><br/>
+```
+################################################################################
+*/
+@font-face {
+    font-family: 'dmsupport-regular';
+    src: url('fonts/DMSupport-Regular.eot'), url("fonts/DMSupportBG-Regular.eot");
+    src: url('fonts/DMSupport-Regular.eot?#iefix') format('embedded-opentype'), url('fonts/DMSupport-Regular.woff') format('woff'), url("fonts/DMSupportBG-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dmsupport-medium';
+    src: url('fonts/DMSupport-Medium.eot');
+    src: url('fonts/DMSupport-Medium.eot?#iefix') format('embedded-opentype'), url('fonts/DMSupport-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dmsupport-bold';
+    src: url('fonts/DMSupport-Bold.eot');
+    src: url('fonts/DMSupport-Bold.eot?#iefix') format('embedded-opentype'), url('fonts/DMSupport-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dmsupport-italic';
+    src: url('fonts/DMSupport-Italic.eot');
+    src: url('fonts/DMSupport-Italic.eot?#iefix') format('embedded-opentype'), url('fonts/DMSupport-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "dm-icons";
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts/dm-icons.eot?#iefix") format("embedded-opentype"), url("fonts/dm-icons.ttf") format("truetype"), url("fonts/dm-icons.woff") format("woff"), url("fonts/dm-icons.svg#dm-icons") format("svg");
+}
+
+
+@media (max-width: 840px) {
+    body {
+        color: #100c4c;
+        font-family: dmsupport-regular, Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        line-height: 19px;
+        background-color: #ffffff;
+        background: url(../Images/dm_anketa_header_1280x350px.jpg) 25% top no-repeat, url(../Images/footer.png) center bottom no-repeat;
+    }
+    .question.multi .field_wrapper label {
+        max-width: 90%;
+    }
+    span.options_wrapper,
+    div.question.rated span.options_wrapper {
+        display: block;
+    }
+    div.question.rated div.question_title {
+        width: auto;
+    }
+    #survey_4 div.question.multi_imaged  {
+        width: auto;
+    }
+    #survey_4 div.question.multi_imaged div.field_wrapper label {
+        display: none;
+    }
+    #survey_4 #group_2 div.question.rated div.question_title,
+    #survey_4 #group_3 div.question.rated div.question_title,
+    #survey_4 #group_4 div.question.rated div.question_title,
+    #survey_4 #group_6 div.question.rated div.question_title,
+    #survey_4 #group_7 div.question.rated div.question_title,
+    #survey_4 #group_8 div.question.rated div.question_title,
+    #survey_4 #group_9 div.question.rated div.question_title,
+    #survey_4 #group_10 div.question.rated div.question_title,
+    #survey_4 #group_12 div.question.rated div.question_title  {
+        width: auto;
+    }
+    #survey_4 #group_2,
+    #survey_4 #group_8 {
+        background-image: none;
+    }
+    #survey_4 #group_2 div.group_title:after,
+    #survey_4 #group_8 div.group_title:after {
+        content: "";
+        display: block;
+        background: url('../Images/true_or_untrue.png') center center no-repeat;
+        width: 175px;
+        height: 138px;
+    }
+    div.question.textual textarea {
+        max-width: 90%;
+    }
+}
+

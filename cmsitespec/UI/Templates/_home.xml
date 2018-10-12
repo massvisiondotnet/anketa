@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <body>
+        <div id="center_wrap">
+            <div id="wrap">
+                <div id="header">
+                </div>
+                <div id="main">
+                    <modul src="Modules::TemplateLoader::cTemplateLoader" name="central_template" >
+                        <param name="template_path">home</param>
+                        <param name="template_version">active</param>
+                        <param name="template_type">default</param>
+                        <param name="template_position">central_template</param>
+                    </modul>
+                </div>
+                <div id="footer">
+                    <modul src="Modules::StringLoader::cStringLoader" name="pageFooter">
+                        <param name="string">PAGE_FOOTER</param>
+                    </modul>
+                </div>
+            </div>
+        </div>
+    </body>
+</layout>

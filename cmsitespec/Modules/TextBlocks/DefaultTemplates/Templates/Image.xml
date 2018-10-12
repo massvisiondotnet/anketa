@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+   <field name="image_1" type="image">
+
+   </field>
+   <field name="text_1" type="text">
+      <search_priority>10</search_priority>
+   </field>
+</layout>

@@ -1,0 +1,33 @@
+#contactform{
+   background-color: #BCDFDC;
+   border: 1px solid #468C88;
+   padding: 9px;
+   margin: 0px;
+   width: 100%;
+}
+input.contactforminput{
+	font-family : Verdana, Arial, sans-serif;
+	font-size: 11px;
+}
+.contactformtag{
+	color: #444444;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+}
+span.contactformerrormsg{
+   color: #990000;
+   font-family: Verdana, Arial, sans-serif;
+   font-size: 11px;
+   font-weight: bold;
+   text-decoration: none;
+   display: block;
+   background-color: #90C7C2;
+   border: solid 1px #990000;
+   padding: 4px;
+   margin-bottom: 5px;
+}
+span.contactformsuccess{
+	font-size: 14px;
+	font-weight: bold;
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+   <h1>
+   <field name="text_1" type="text">
+      <search_priority>10</search_priority>
+   </field>
+   </h1>
+</layout>

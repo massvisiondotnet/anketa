@@ -1,0 +1,252 @@
+/**
+ * Event calendar stylesheets
+ *
+ * @author    Nemanja Nikolic
+ * @copyright MASSVision 2011
+ */
+
+div#eventCalendarWrapper {
+	margin-left: 12px;
+}
+div.eventCalendar {
+	width: 162px;
+	text-align: left;
+}
+
+div.eventCalendar div.month {
+	padding-top: 10px;
+	border-bottom: 1px solid #cccccc;
+}
+div.eventCalendar div.month div.monthPrev {
+	display: inline-block;
+	width: 10px;
+	height: 12px;
+	background: url('navig_left.png') center center no-repeat;
+	cursor: pointer;
+}
+div.eventCalendar div.month div.monthPrev.disabled {
+	background: url('navig_left_off.png') center center no-repeat;
+	cursor: default;
+}
+div.eventCalendar div.month div.monthNext {
+	display: inline-block;
+	width: 10px;
+	height: 12px;
+	background: url('navig_right.png') center center no-repeat;
+	cursor: pointer;
+}
+div.eventCalendar div.month div.monthNext.disabled {
+	background: url('navig_right_off.png') center center no-repeat;
+	cursor: default;
+}
+div.eventCalendar div.month div.monthName {
+	display: inline-block;
+	width: 142px;
+	color: #888888;
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 2px;
+	font-size: 12px;
+}
+
+div.eventCalendar div.day {
+	display: inline-block;
+	width: 20px;
+	padding: 1px 0px 1px 0px;
+	border: 1px solid #cccccc;
+	color: #888888;
+	font-size: 11px;
+	margin: 1px 1px 0px 0px;
+	text-align: center;
+	position: relative;
+}
+div.eventCalendar div.dow6,
+div.eventCalendar div.dow7 {
+	background: #f0f0f0;
+}
+div.eventCalendar div.empty {
+	border: 1px solid transparent;
+	background: #transparent;
+}
+div.eventCalendar div.dayHeader {
+	border: 1px solid transparent;
+	font-weight: bold;
+}
+div.eventCalendar div.eventDay {
+	cursor: default;
+	color: #ffffff;
+	background: #888888;
+}
+
+div.eventCalendar div.day ul.dayEvents {
+	position: absolute;
+	left: 0px;
+	top: 100%;
+	display: none;
+}
+div.eventCalendar div.day:hover ul.dayEvents {
+	margin: 0px;
+	padding: 5px;
+	border: 1px solid #cccccc;
+	display: inline-block;
+	background: #ffffff;
+	z-index: 100;
+	width: 200px;
+	list-style-type: none;
+	list-style-image: none;
+}
+div.eventCalendar div.day:hover ul.dayEvents li {
+	padding: 0px 0px 0px 10px;
+	margin: 3px 0px 3px 0px;
+	text-align: left;
+	font-size: 11px;
+	width: 100%;
+}
+
+span.legend {
+	display: block;
+	margin-top: 10px;
+	border-top: 1px solid #cccccc;
+	cursor: default;
+}
+span.legend .legendTitle {
+	display: inline-block;
+	padding: 2px 12px 2px 10px;
+	color: #888888;
+	background: url('legend_off.png') right 6px no-repeat;
+}
+span.legend:hover .legendTitle {
+	background: url('legend_on.png') right 8px no-repeat;
+}
+span.legend ul {
+	display: none;
+	margin: 0px;
+	padding: 5px 10px 5px 10px;
+	list-style-type: none;
+	list-style-image: none;
+	text-align: left;
+}
+span.legend ul li {
+	margin: 2px 0px 2px 0px;
+	padding: 0px 0px 0px 10px;
+	color: #888888;
+	font-size: 11px;
+}
+
+span.legend:hover ul {
+	display: block;
+	width: 100%;
+}
+
+/**
+ * list
+ */
+ul.eventCalendarList {
+	margin: 0px 0px 15px 0px;
+	padding: 0px;
+	list-style-type: none;
+	list-style-image: none;
+}
+ul.eventCalendarList li {
+	padding: 0px;
+	margin-bottom: 15px;
+}
+ul.eventCalendarList li:hover {
+	background: #f9f9f9;
+}
+
+div.singleInList {
+}
+div.singleInList span.date {
+	display: block;
+	font-weight: bold;
+	font-size: 11px;
+}
+div.singleInList span.title {
+	display: inline-block;
+	color: #b22c1b;
+	font-weight: bold;
+}
+div.singleInList span.category {
+	display: inline-block;
+	float: right;
+	font-weight: bold;
+	font-size: 11px;
+}
+div.singleInList span.description {
+	padding-top: 5px;
+}
+div.singleInList span.description p:last-child {
+	margin-bottom: 0px;
+}
+div.singleInList span.link {
+	padding-top: 5px;
+}
+.expandable div.singleInList,
+.expanded div.singleInList {
+	cursor: pointer;
+}
+.expandable div.singleInList .description,
+.expandable div.singleInList .link {
+	display: none;
+}
+.expanded div.singleInList .description,
+.expanded div.singleInList .link {
+	display: block;
+}
+
+
+.expandable div.singleInList span.title {
+	padding-right: 10px;
+	background: url('legend_off.png') right 5px no-repeat;
+}
+.expanded div.singleInList span.title {
+	padding-right: 10px;
+	background: url('legend_on.png') right 7px no-repeat;
+}
+
+
+.eventCalendarListWrapper div.navig {
+	font-weight: bold;
+	padding-top: 15px;
+	margin-bottom: 15px;
+}
+.eventCalendarListWrapper div.navig a.navigPrev {
+	padding-right: 15px;	
+	background: url('navig_left.png') left center no-repeat;
+	padding-left: 10px;
+}
+.eventCalendarListWrapper div.navig a.navigNext {
+	background: url('navig_right.png') right center no-repeat;
+	padding-right: 10px;
+}
+
+
+
+/**
+ * specfic event categories
+ */
+div.eventCalendar div.day.multi {
+	background: #0000cc;
+}
+div.eventCalendar div.day.events {
+	background: #cc0000;
+}
+div.eventCalendar div.day.board_meeting {
+	background: #ff7700;
+}
+div.eventCalendar div.day.press {
+	background: #00cc00;
+}
+div.eventCalendar li.multi {
+	background: url('event_blue.png') left 3px no-repeat;
+}
+div.eventCalendar li.events {
+	background: url('event_red.png') left 3px no-repeat;
+}
+div.eventCalendar li.board_meeting {
+	background: url('event_orange.png') left 3px no-repeat;
+}
+div.eventCalendar li.press {
+	background: url('event_green.png') left 3px no-repeat;
+}
