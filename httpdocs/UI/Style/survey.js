@@ -64,6 +64,15 @@ $(document).ready(function() {
         $dc.css('min-height', (mh + wh - dh) + 'px');
     }
 
+    // survey 1 specs:
+    $('div#survey_1 div#question_8').hide();
+    $('div#survey_1 div#question_7 select').change(function() {
+        let targetSelect = $('div#survey_1 div#question_8 select');
+        let targetDiv = $('div#survey_1 div#question_8');
+        targetSelect.val(null);
+        if ($(this).val() === '3') targetDiv.show(); else targetDiv.hide();
+    });
+
 
 });
 
@@ -93,3 +102,6 @@ function refreshFakeImagedCheckboxes() {
             $(this).closest('.checkboxWrapper').removeClass('active');
     })
 }
+
+
+

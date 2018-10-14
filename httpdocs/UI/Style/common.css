@@ -88,7 +88,7 @@ h4,
 h4 a,
 .h9,
 .p4 {
-    color: #bd0027;
+    color: #231f20;
 }
 h2,
 h3,
@@ -97,7 +97,7 @@ h3,
 .p5,
 .p6,
 .p7 {
-    color: #100c4c;
+    color: #231f20;
 }
 h5,
 .p2,
@@ -168,12 +168,12 @@ td {
     text-align: left;
 }
 body {
-    color: #100c4c;
+    color: #231f20;
     font-family: dmsupport-regular, Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    line-height: 19px;
-    background-color: #ffffff;
-    background: url(../Images/dm_anketa_header_1280x350px.jpg) center top no-repeat, url(../Images/footer.png) center bottom no-repeat;
+    font-size: 1.2em;
+    line-height: 1.05em;
+    background: #ffffff url(../Images/s1/page_background.png) center top repeat-x;
+    /*background: url(../Images/dm_anketa_header_1280x350px.jpg) center top no-repeat, url(../Images/footer.png) center bottom no-repeat;*/
 }
 
 div#center_wrap {
@@ -182,40 +182,45 @@ div#center_wrap {
 }
 div#center_wrap div#wrap {
     display: block;
-    max-width: 900px;
+    max-width: 1284px;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-    padding: 0 30px;
+    padding: 0;
+    background: #ffffff url(../Images/s1/main_bck.jpg) center top no-repeat;
 }
 div#center_wrap div#header {
-    height: 320px;
+    height: 98px;
+    background: url(../Images/s1/dm_logo.png) 0 0 no-repeat;
+
 }
 div#center_wrap div#footer {
     height: 50px;
-    padding-top: 170px;
+    padding: 170px 30px 20px 30px;
     font-size: 12px;
+    text-align: center;
 }
 div#center_wrap div#footer b {
     font-family: dmsupport-bold, Arial, Helvetica, sans-serif;
 }
 div#main {
-    padding: 45px 0 10px 0;
+    padding: 200px 30px 10px 30px;
+    background: url(../Images/s1/title.png) center 0 no-repeat;
 }
-
 
 /***************
  * Survey
  ***************/
 div.survey select {
     font-family: dmsupport-regular, Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    color: #002878;
+    font-size: 1.1em;
+    color: #231f20;
+    padding: 5px 10px 3px 10px;
 }
 h1.page_title {
     font-family: dmsupport-bold, Arial, Helvetica, sans-serif;
     font-size: 28px;
-    color: #002878;
+    color: #231f20;
     margin: 0 0 20px 0;
 }
 .page_header {
@@ -231,14 +236,30 @@ h1.page_title {
 }
 div.group_title {
     font-family: dmsupport-bold, Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    color: #002878;
-    margin: 25px 0 5px -22px;
-    padding: 8px 10px 10px 22px;
-    background: url(../Images/olovka.png) top left no-repeat;
+    font-size: 1.25em;
+    color: #231f20;
+    margin: 25px 0 5px 0;
+    padding: 8px 10px 10px 0;
 }
 div.group_title span.group_nr {
-    display: none;
+    font-size: 1.1em;
+    padding: 0 10px 0 0;
+}
+div.group_title div.group_help {
+    font-family: dmsupport-regular, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 0.7em;
+    padding-left: 30px;
+}
+div.question_help {
+    font-family: dmsupport-regular, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 0.88em;
+    padding-bottom: 10px;
+}
+
+div.group_questions {
+    padding-left: 30px;
 }
 
 div.question.rated {
@@ -262,14 +283,15 @@ div.question.rated label {
     -webkit-border-radius: 3px 3px 3px 3px;
     border: 1px solid #b5b5b5;
     line-height: 14px;
-    color: #002878;
+    color: #231f20;
+    background-color: #ffffff;
 }
 div.question.rated label:hover {
     background-color: #ffc72d;
-    color: #002878;
+    color: #231f20;
 }
 div.question.rated label.active {
-    background-color: #de291e;
+    background-color: #231f20;
     color: #ffffff;
 }
 div.question.rated input {
@@ -295,7 +317,7 @@ div.question.single {
     margin-right: 30px;
 }
 div.question.single select {
-    width: 180px;
+    /*width: 180px;*/
 }
 div.question.textual textarea {
     width: 570px;
@@ -305,7 +327,7 @@ div.question.textual textarea {
     -webkit-border-radius: 3px 3px 3px 3px;
     border: 1px solid #cccccc;
     font-family: dmbrand-regular, Arial, Helvetica, sans-serif;
-    color: #150d52;
+    color: #231f20;
     font-size: 14px;
 }
 div.group_note {
@@ -315,233 +337,6 @@ div.group_note {
     padding-bottom: 5px;
     margin-top: -5px;
     margin-bottom: 20px;
-}
-
-#survey_1 div.question.multi_imaged div.field_wrapper {
-    display: inline-block;
-    width: 114px;
-    height: 74px;
-    cursor: pointer;
-    padding-top: 2px;
-    padding-left: 2px;
-}
-#survey_1 div.question.multi_imaged div.field_wrapper label {
-    display: none;
-}
-
-#survey_1 #group_5 div.question.rated div.question_title  {
-     width: 370px;
-}
-#survey_1 #group_7 div.question.rated div.question_title  {
-    width: 370px;
-}
-#survey_1 #group_8 div.question.rated div.question_title  {
-    width: 370px;
-}
-#survey_1 #group_9 div.question.rated div.question_title  {
-    width: 370px;
-}
-#survey_1 #group_10 div.question.rated div.question_title  {
-    width: 370px;
-}
-#survey_1 #group_2,
-#survey_1 #group_7 {
-    background: url('../Images/true_or_untrue.png') 550px 30px no-repeat;
-}
-#survey_1 #group_13 {
-    padding-top: 35px;
-}
-#survey_1 #group_13 div.group_title {
-    display: none;
-}
-
-#survey_2 div.question.multi_imaged  {
-    width: 700px;
-}
-#survey_2 div.question.multi_imaged div.field_wrapper {
-    display: inline-block;
-    width: 114px;
-    height: 74px;
-    cursor: pointer;
-    padding-top: 2px;
-    padding-left: 2px;
-}
-#survey_2 div.question.multi_imaged div.field_wrapper label {
-    display: none;
-}
-#survey_2 #group_2 div.question.rated div.question_title  {
-     width: 370px;
-}
-#survey_2 #group_5 div.question.rated div.question_title  {
-     width: 370px;
-}
-#survey_2 #group_7 div.question.rated div.question_title  {
-    width: 370px;
-}
-#survey_2 #group_8 div.question.rated div.question_title  {
-    width: 370px;
-}
-#survey_2 #group_9 div.question.rated div.question_title  {
-    width: 370px;
-}
-#survey_2 #group_12 div.question.rated div.question_title  {
-    width: 370px;
-}
-#survey_2 #group_13 div.question.rated div.question_title  {
-    width: 370px;
-}
-#survey_2 #group_2,
-#survey_2 #group_7 {
-    background: url('../Images/true_or_untrue.png') 550px 30px no-repeat;
-}
-#survey_2 #group_16 {
-    padding-top: 35px;
-}
-#survey_2 #group_10 div.question_title {
-    display: none;
-}
-#survey_2 #group_16 div.group_title {
-    display: none;
-}
-
-#survey_3 div.question.multi_imaged  {
-    width: 700px;
-}
-#survey_3 div.question.multi_imaged div.field_wrapper {
-    display: inline-block;
-    width: 114px;
-    height: 74px;
-    cursor: pointer;
-    padding-top: 2px;
-    padding-left: 2px;
-}
-#survey_3 div.question.multi_imaged div.field_wrapper label {
-    display: none;
-}
-#survey_3 #group_2 div.question.rated div.question_title  {
-     width: 370px;
-}
-#survey_3 #group_3 div.question.rated div.question_title  {
-     width: 370px;
-}
-#survey_3 #group_5 div.question.rated div.question_title  {
-     width: 370px;
-}
-#survey_3 #group_6 div.question.rated div.question_title  {
-     width: 370px;
-}
-#survey_3 #group_7 div.question.rated div.question_title  {
-    width: 370px;
-}
-#survey_3 #group_8 div.question.rated div.question_title  {
-    width: 370px;
-}
-#survey_3 #group_9 div.question.rated div.question_title  {
-    width: 370px;
-}
-#survey_3 #group_11 div.question.rated div.question_title  {
-    width: 370px;
-}
-#survey_3 #group_12 div.question.rated div.question_title  {
-    width: 370px;
-}
-#survey_3 #group_2,
-#survey_3 #group_7 {
-    background: url('../Images/true_or_untrue.png') 550px 30px no-repeat;
-}
-#survey_3 #group_15 {
-    padding-top: 35px;
-}
-#survey_3 #group_10 div.question_title {
-    display: none;
-}
-#survey_3 #group_15 div.group_title,
-#survey_3 #group_16 div.group_title {
-    display: none;
-}
-#survey_3 #group_16 input[type=text] {
-    width: 180px;
-}
-#survey_3 #group_16 div.group_note {
-    margin-top: 0px;
-    background: transparent;
-    width: 90%;
-}
-#survey_3 #group_16 {
-    padding: 15px 10px 0 10px;
-    background-color: #ffffb3;
-}
-
-
-
-
-
-
-#survey_4 div.question.multi_imaged  {
-    width: 700px;
-}
-#survey_4 div.question.multi_imaged div.field_wrapper {
-    display: inline-block;
-    width: 114px;
-    height: 74px;
-    cursor: pointer;
-    padding-top: 2px;
-    padding-left: 2px;
-}
-#survey_4 div.question.multi_imaged div.field_wrapper label {
-    display: none;
-}
-#survey_4 #group_2 div.question.rated div.question_title  {
-     width: 370px;
-}
-#survey_4 #group_3 div.question.rated div.question_title  {
-     width: 570px;
-}
-#survey_4 #group_4 div.question.rated div.question_title  {
-     width: 570px;
-}
-#survey_4 #group_6 div.question.rated div.question_title  {
-     width: 370px;
-}
-#survey_4 #group_7 div.question.rated div.question_title  {
-    width: 370px;
-}
-#survey_4 #group_8 div.question.rated div.question_title  {
-    width: 370px;
-}
-#survey_4 #group_9 div.question.rated div.question_title  {
-    width: 370px;
-}
-#survey_4 #group_10 div.question.rated div.question_title  {
-    width: 370px;
-}
-#survey_4 #group_12 div.question.rated div.question_title  {
-    width: 370px;
-}
-#survey_4 #group_2,
-#survey_4 #group_8 {
-    background: url('../Images/true_or_untrue.png') 550px 30px no-repeat;
-}
-#survey_4 #group_12 {
-    margin-top: 20px;
-}
-#survey_4 #group_9 div.question_title {
-    display: none;
-}
-#survey_4 #group_12 div.group_title {
-    display: none;
-}
-#survey_4 #group_12 input[type=text] {
-    width: 180px;
-}
-#survey_4 #group_12 div.group_note {
-    margin-top: 0px;
-    background: transparent;
-    width: 90%;
-}
-#survey_4 #group_12 {
-    padding: 15px 10px 0 10px;
-    background-color: #ffffb3;
 }
 
 
@@ -637,6 +432,15 @@ body.backend_login {
 }
 
 
+div#survey_1 div#question_8 {
+    display: block;
+    padding-top: 15px;
+}
+div#survey_1 div#question_8 div.question_title {
+    font-family: dmsupport-bold, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
 /*
 ################################################################################
 ## DMBrand
@@ -725,6 +529,7 @@ body.backend_login {
 
 
 @media (max-width: 840px) {
+    /*
     body {
         color: #100c4c;
         font-family: dmsupport-regular, Arial, Helvetica, sans-serif;
@@ -732,6 +537,11 @@ body.backend_login {
         line-height: 19px;
         background-color: #ffffff;
         background: url(../Images/dm_anketa_header_1280x350px.jpg) 25% top no-repeat, url(../Images/footer.png) center bottom no-repeat;
+    }
+    */
+    div#main {
+        padding: 180px 30px 10px 30px;
+        background: url(../Images/s1/title_mobile.png) center 0 no-repeat;
     }
     .question.multi .field_wrapper label {
         max-width: 90%;
@@ -742,35 +552,6 @@ body.backend_login {
     }
     div.question.rated div.question_title {
         width: auto;
-    }
-    #survey_4 div.question.multi_imaged  {
-        width: auto;
-    }
-    #survey_4 div.question.multi_imaged div.field_wrapper label {
-        display: none;
-    }
-    #survey_4 #group_2 div.question.rated div.question_title,
-    #survey_4 #group_3 div.question.rated div.question_title,
-    #survey_4 #group_4 div.question.rated div.question_title,
-    #survey_4 #group_6 div.question.rated div.question_title,
-    #survey_4 #group_7 div.question.rated div.question_title,
-    #survey_4 #group_8 div.question.rated div.question_title,
-    #survey_4 #group_9 div.question.rated div.question_title,
-    #survey_4 #group_10 div.question.rated div.question_title,
-    #survey_4 #group_12 div.question.rated div.question_title  {
-        width: auto;
-    }
-    #survey_4 #group_2,
-    #survey_4 #group_8 {
-        background-image: none;
-    }
-    #survey_4 #group_2 div.group_title:after,
-    #survey_4 #group_8 div.group_title:after {
-        content: "";
-        display: block;
-        background: url('../Images/true_or_untrue.png') center center no-repeat;
-        width: 175px;
-        height: 138px;
     }
     div.question.textual textarea {
         max-width: 90%;
