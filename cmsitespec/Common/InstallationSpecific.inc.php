@@ -17,7 +17,7 @@ define('SITE_SECRET_KEY', 'massvisionkixarses');
 
 /**
  * Podrazumevani tip HTML-a koji se koristi.
- * @see http://www.w3schools.com/tags/tag_doctype.asp 
+ * @see http://www.w3schools.com/tags/tag_doctype.asp
  */
 define('PARM_HTML_TYPE', 'HTML 5');
 
@@ -67,7 +67,7 @@ define('IE_FIX_VERSION', '2.1(beta4)');
 define('IE_FIX_FILE', 'IE9.js');
 
 // Verzija kora
-define('CORE_VERSION', 'v5.2.64');
+define('CORE_VERSION', 'v5.2.66');
 
 // Definicija setupa parametara
 require_once (dirname(__FILE__)."/../setup.inc.php");
@@ -90,10 +90,10 @@ define(
 //define('DB_PASSWORD', 'leaves');
 //define('DB_NAME', 'anketa');
 
-define('DB_SERVER_LOCATION', $_ENV['DATABASE_HOST']);
-define('DB_USERNAME', $_ENV['DATABASE_USER']);
-define('DB_PASSWORD', $_ENV['DATABASE_PASS']);
-define('DB_NAME', $_ENV['DATABASE_NAME']);
+define('DB_SERVER_LOCATION', getenv('DATABASE_HOST'));
+define('DB_USERNAME', getenv('DATABASE_USER'));
+define('DB_PASSWORD', getenv('DATABASE_PASS'));
+define('DB_NAME', getenv('DATABASE_NAME'));
 
 define('DB_TRANSACTIONS_SUPPORTED', true);
 define('DB_TYPE', 'MySQLt');
@@ -177,34 +177,34 @@ define('USE_URL_I18N_SLUG_SHORT', false);
 // Specificnosti pojedinih modula
 $SITESPEC_CONFIG['modules'] = array
 (
-	 "Search"         	=> false
-	,"NewsPlus"       	=> false
-	,"Rklm"           	=> false
-	,"Login"          	=> false
-	,"Shop"           	=> false
-	,"Register"       	=> false
-	,"ContactForm"    	=> false
-	,"Survey"         	=> false
-	,"GuestBook"      	=> false
-	,"Seminars"       	=> false
-	,"SendToFriend"   	=> false
-	,"Blog"	         	=> false
-	,"Comments"       	=> false
-	,"Tags"           	=> false
-	,"BannerSys"      	=> false
-	,"EventCalendar"	=> false
-	,"Gallery2"			=> false
-	,"LastUpdate"		=> false
-	,"ReadBlock"		=> false
-	,"AjaxComboBoxes"	=> false
-	,"Newsletter2"		=> false
-	,"GMapLocations"	=> false
-    ,"UserRegistration" => false
-    ,"SurveyNew"        => true
+    "Search"         	=> false
+,"NewsPlus"       	=> false
+,"Rklm"           	=> false
+,"Login"          	=> false
+,"Shop"           	=> false
+,"Register"       	=> false
+,"ContactForm"    	=> false
+,"Survey"         	=> false
+,"GuestBook"      	=> false
+,"Seminars"       	=> false
+,"SendToFriend"   	=> false
+,"Blog"	         	=> false
+,"Comments"       	=> false
+,"Tags"           	=> false
+,"BannerSys"      	=> false
+,"EventCalendar"	=> false
+,"Gallery2"			=> false
+,"LastUpdate"		=> false
+,"ReadBlock"		=> false
+,"AjaxComboBoxes"	=> false
+,"Newsletter2"		=> false
+,"GMapLocations"	=> false
+,"UserRegistration" => false
+,"SurveyNew"        => true
 );
 
 foreach($SITESPEC_CONFIG['modules'] as $modul => $included)
-   if($included) require_once (PATH_HOME."/Modules/{$modul}/Common/InstallationSpecific.inc.php");
+    if($included) require_once (PATH_HOME."/Modules/{$modul}/Common/InstallationSpecific.inc.php");
 
 require_once (PATH_HOME."/Common/Parameters.inc.php");
 
@@ -219,12 +219,12 @@ define('LONG_TIME_FORMAT', '%H:%M:%S');
 $lProtocol = 'http';
 
 if(isset($_SERVER['SCRIPT_URI'])) {
-   // Ako je http postoji $_SERVER['SCRIPT_URI'] a ne $_SERVER['HTTPS']
-   $lProtocol = substr($_SERVER['SCRIPT_URI'], 0, strpos($_SERVER['SCRIPT_URI'], "://"));
+    // Ako je http postoji $_SERVER['SCRIPT_URI'] a ne $_SERVER['HTTPS']
+    $lProtocol = substr($_SERVER['SCRIPT_URI'], 0, strpos($_SERVER['SCRIPT_URI'], "://"));
 
 } else if(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS']!="off" /*&& $_SERVER['HTTPS']!=0*/)
-   // Ako je https postoji $_SERVER['HTTPS'] a ne $_SERVER['SCRIPT_URI']
-   $lProtocol = 'https';
+    // Ako je https postoji $_SERVER['HTTPS'] a ne $_SERVER['SCRIPT_URI']
+    $lProtocol = 'https';
 
 if($lProtocol == 'https') define('LOGIN_USING_SSL', true);
 

@@ -7,8 +7,8 @@
  * @brief   Definicija glavne izvrsne klase
  */
 
-if(true) // false ako se ne radi setup, true u suprotnom
+if(false) // false ako se ne radi setup, true u suprotnom
 {
    define('DEFAULT_PAGE_TEMPLATE', dirname(__FILE__).'/UI/Templates/setupView.xml');
-   define('RUNNING_SETUP', false);
+   define('RUNNING_SETUP', true);
 }
