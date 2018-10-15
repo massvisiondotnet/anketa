@@ -116,11 +116,10 @@
           ]
         },
         {
-          "title": "Starost",
           "questions": [
             {
               "type": "single",
-              "title": "",
+              "title": "Starost",
               "options": [
                 "do 18",
                 "18-25",
